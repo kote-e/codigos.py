@@ -17,5 +17,6 @@ cd codigos.py
 
 python codigos_python/ejemplo1.py
 
-💡 Asegúrate de tener instalado Python 3. Si usas librerías externas, puedes revisar requirements.txt.
+
+##  💡 Asegúrate de tener instalado Python 3. Si usas librerías externas, puedes revisar requirements.txt.
 ❤️ Gracias por visitar

@@ -28,7 +28,7 @@ def minas_adyacentes(tablero, fila, columna):
 def mostrar_tablero(tablero):
     """Muestra el tablero de juego."""
     tamano = len(tablero)
-    encabezado = "   " + " ".join(f"{i+1:>2}" for i in range(tamano))
+    encabezado = "  " + " ".join(f"{i+1:>2}" for i in range(tamano))
     print(encabezado)
     for i in range(tamano):
         fila_str = f"{i+1:<2} "
@@ -59,7 +59,7 @@ def win(tablero_visible):
     for fila in tablero_visible:
         if ' ' in fila:
             return False
-    return Tru
+    return True
 
 '''programa principal'''
 tamano = int(input("Ingrese el tamaño del tablero: "))

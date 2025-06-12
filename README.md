@@ -4,7 +4,7 @@
 ## 📁 Estructura
 
 - `trabajos_universidad/`: Aquí están mis trabajos y ejercicios de la universidad.
-- `codigos_python/`: Códigos diversos en Python, ejemplos y mini proyectos.
+- `codigos_python/`: Códigos diversos en Python, ejemplos.
 - `proyectos` : Cosas que se me ocurren
 
 ## 🚀 Cómo usar

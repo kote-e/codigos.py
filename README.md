@@ -13,11 +13,3 @@
 ```bash
 git clone https://github.com/kote-e/codigos.py.git
 cd codigos.py
-
-
-2. Ejecuta cualquier script en Python según tus necesidades:
-python codigos_python/ejemplo1.py
-
-
-💡 Asegúrate de tener instalado Python 3. Si usas librerías externas, puedes revisar requirements.txt.
-❤️ Gracias por visitar

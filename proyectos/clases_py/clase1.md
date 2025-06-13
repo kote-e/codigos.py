@@ -66,4 +66,4 @@ Si ven el mensaje Hello, World!, ¡felicitaciones¡
 - "Hello, World!" es un string (cadena de texto).
 
 **Tarea:**
-Prueben hacer más mensajes con print(). Por ejemplo, imprimir su nombre, edad, o lo que quieran.
+Prueben hacer más mensajes con print(). Por ejemplo, imprimir tu nombre, edad, o lo que quieras.

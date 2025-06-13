@@ -65,5 +65,7 @@ Si ven el mensaje Hello, World!, ¡felicitaciones¡
 - print() es una función que muestra el texto en pantalla.
 - "Hello, World!" es un string (cadena de texto).
 
+---
+
 **Tarea:**
 Prueben hacer más mensajes con print(). Por ejemplo, imprimir tu nombre, edad, o lo que quieras.

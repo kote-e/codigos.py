@@ -38,8 +38,7 @@ Vamos a escribir nuestro primer código:
 
 *   Creamos un archivo llamado hello.py.
 *   Dentro escribimos:
-        ```python
-        print("Hello, World!")```
+    ```print("Hello, World!")```
 
 *   Ahora lo ejecutamos en la terminal:
         python hello.py

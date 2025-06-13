@@ -59,11 +59,14 @@ print(a ** b) # potencia: 1000
 print(a % b)  # módulo: 1
 ```
 
+---
+
 ## Entrada de datos desde la terminal
 
 Hasta ahora nosotros hemos asignado los valores directamente en el código.  
 Pero muchas veces queremos que sea el usuario quien ingrese los datos mientras el programa se está ejecutando.  
-Para eso usamos la función ```input()```.
+Para eso usamos la función ```input()```.  
+
 *Ejemplo:*
 ```
 nombre = input("Por favor ingresa tu nombre: ")
@@ -86,6 +89,8 @@ altura = float(input("Ingresa tu altura en metros: "))
 print("Tienes", edad, "años y mides", altura, "metros.")
 ```   
 Fíjense que usamos ```int()``` para convertir a entero, o ```float()``` para convertir a número decimal.
+
+---
 
 ## Comentarios y buenas prácticas
 

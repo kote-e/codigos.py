@@ -16,12 +16,12 @@ primero que es una ide?
 Es una aplicación de software que  combina varias herramientas necesarias para desarrollar código de software de manera eficiente.
 Es como un cuaderno inteligente donde vamos a escribir y ejecutar nuestro código de forma cómoda.
 
-1. Paso uno: Descarga e Instalación de un IDE
+Paso 1: Descarga e Instalación de un IDE
 *	PyCharm: [Descarga desde](https://www.jetbrains.com/es-es/pycharm/download/?section=windows) (si quieres algo más profesional)
 *	VS Code: [Descarga desde](https://code.visualstudio.com/download) (más liviano, ideal para iniciar)
 (Sigue las instrucciones de instalación específicas para tu sistema operativo.)
 
-2. Paso dos: Configuración del IDE
+Paso 2: Configuración del IDE
 *	Abre el IDE instalado.
 *	Crea un nuevo proyecto de Python.
 *	Configura el intérprete de Python en el IDE, asegurándote de seleccionar la versión de Python que acabas de instalar.

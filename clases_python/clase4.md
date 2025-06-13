@@ -36,10 +36,10 @@ print(saludar("nombre"))
 - Argumentos: Lo que pasamos al llamar la función.  
 
 *Ejemplo:*  
-
+```
 def suma(a, b):
     return a + b
-```
+
 # Llamada a la función con argumentos
 resultado = suma(5, 7)
 print(resultado)  # Salida: 12

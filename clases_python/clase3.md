@@ -76,4 +76,8 @@ frutas = ["manzana", "banana", "cereza"]
 print(len(frutas))  # salida: 3
 ```
 
+---
+
+**Tarea:**  
+Hacer un programa que pida un número y diga si es par o impar.
 

@@ -85,3 +85,15 @@ nueva_lista = frutas.copy()
 print(nueva_lista)
 ```
 
+**Mini resumen**  
+| Operación         | Código                        |
+|--------------------|------------------------------|
+| Crear              | `lista = []`                 |
+| Acceso             | `lista[0]`                   |
+| Modificar          | `lista[0] = nuevo_valor`     |
+| Agregar            | `lista.append(valor)`        |
+| Eliminar por valor | `lista.remove(valor)`        |
+| Eliminar por índice| `del lista[indice]`          |
+| Eliminar último    | `lista.pop()`                |
+| Recorrer           | `for elemento in lista:`     |
+| Copiar             | `nueva_lista = lista.copy()` |

@@ -17,7 +17,7 @@ Tipos de datos básicos:
 
 | Tipo            | Ejemplo      | Código           |
 | --------------  | ------------ | ---------------- |
-| Entero (int)    | 5            | x = 5            |
+| Entero (int)    | 5            | x = 5            |  (Números sin decimales)
 | Flotante (float)| 3.14         | pi = 3.14        |
 | Cadena (str)    | "Hola"       | saludo = "Hola"  |
 | Booleano (bool) | True / False | activo = True    |
@@ -33,4 +33,8 @@ activo = True
 print(x, type(x))
 print(nombre, type(nombre)) 
 ```
+
+---
+
+## Operaciones Matemáticas Básicas
 

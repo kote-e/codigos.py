@@ -81,7 +81,7 @@ y el usuario podrá escribir su nombre, que quedará guardado en la variable nom
 Todo lo que viene desde ```input()``` es siempre un string (cadena de texto), aunque el usuario escriba un número.  
 Si queremos usar esos datos como números, debemos convertirlos.  
 
-*Conversión a entero o flotante:*  
+***Conversión a entero o flotante:***  
 ```
 edad = int(input("Ingresa tu edad: "))
 altura = float(input("Ingresa tu altura en metros: "))

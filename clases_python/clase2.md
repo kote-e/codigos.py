@@ -77,7 +77,7 @@ Cuando corran este programa, la consola va a mostrar:
 ```Por favor ingresa tu nombre:```  
 y el usuario podrá escribir su nombre, que quedará guardado en la variable nombre.
 
-**Recordatorio sobre tipos:**
+**Recordatorio sobre tipos:**  
 Todo lo que viene desde ```input()``` es siempre un string (cadena de texto), aunque el usuario escriba un número.  
 Si queremos usar esos datos como números, debemos convertirlos.  
 

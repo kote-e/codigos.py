@@ -60,7 +60,7 @@ def reporte(nombre_archivo):
     for juego in juegos:
         ar_juego= open(f"{juego}.txt", "w")
         juego_ranking = ranking(nombre_archivo, juego)
-        print(juego, juego_ranking)
+        #print(juego, juego_ranking)
         
         for categoria in juego_ranking:
             ar_juego.write(f"{categoria}\n")

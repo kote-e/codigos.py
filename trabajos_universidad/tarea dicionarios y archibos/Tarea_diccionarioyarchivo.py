@@ -10,8 +10,11 @@ def baneados(nombre_archivo):
     return baneados
 
 def convertir_tiempo (tiempo_str):
-    h, m, s = map(int, tiempo_str.split(":"))
-    return h * 3600 + m * 60 + s
+    partes = tiempo_str.split(":")
+    enteros = []
+    for elemento in partes:
+        enteros.append(int(elemento))
+    return enteros[0] * 3600 + enteros[1] * 60 + enteros[2]
 
 def ranking(nombre_archivo, juego):
     archivo= open(nombre_archivo, "r")
@@ -31,6 +34,16 @@ def ranking(nombre_archivo, juego):
             ranking_juego[categoria].append((jugador, pais, tiempo))
 
     archivo.close()
+    for categoria in ranking_juego:
+            lista = ranking_juego[categoria]
+            for i in range(len(lista)):
+                min= i
+                for j in range(i + 1, len(lista)):
+                    if convertir_tiempo(lista[j][2]) < convertir_tiempo(lista[min][2]):
+                        min = j
+                lista[i], lista[min] = lista[min], lista[i]
+            ranking_juego[categoria] = lista[:3]
+
     return ranking_juego
 
 def reporte(nombre_archivo):
@@ -42,28 +55,18 @@ def reporte(nombre_archivo):
         juego= speedruns[2]
         if juego not in juegos:
             juegos.append(juego)
-
     archivo.close()
     
     for juego in juegos:
         ar_juego= open(f"{juego}.txt", "w")
         juego_ranking = ranking(nombre_archivo, juego)
-        for categoria in juego_ranking:
-            lista = juego_ranking[categoria]
-            for i in range(len(lista)):
-                min= i
-                for j in range(i + 1, len(lista)):
-                    if convertir_tiempo(lista[j][2]) < convertir_tiempo(lista[min][2]):
-                        min = j
-                lista[i], lista[min] = lista[min], lista[i]
-            juego_ranking[categoria] = lista[:3]
-
-
+        print(juego, juego_ranking)
+        
         for categoria in juego_ranking:
             ar_juego.write(f"{categoria}\n")
             for jugador, pais, tiempo in juego_ranking[categoria]:
                 ar_juego.write(f"- {jugador} ({pais}): {tiempo}\n")
-        
+        ar_juego.close()
     
     return len(juegos)
 
@@ -74,5 +77,7 @@ def reporte(nombre_archivo):
 #print(usuarios_ban)
 #ranking_juego = ranking("speedruns.txt", "Donkey Kong Country")
 #print(ranking_juego)
+
+
 reportee= reporte("speedruns.txt")
 print(reportee)

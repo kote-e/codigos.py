@@ -39,12 +39,12 @@ print(nombre, type(nombre))
 
 En python se pueden hacer sumas, restas, multiplicaciones, divisiones y más...  
 Operaciones comunes:  
--Suma (+)
--Resta (-)
--Multiplicación (*)
--División (/)
--Potencia (**)
--Módulo (%): Retorna el residuo de la división
+- Suma (+)  
+- Resta (-)  
+- Multiplicación (*)  
+- División (/)  
+- Potencia (**)  
+- Módulo (%): Retorna el residuo de la división  
 
 *Ejemplo:*
 ```

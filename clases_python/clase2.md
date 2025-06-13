@@ -13,7 +13,7 @@
 Las variables son espacios en la memoria que almacenan datos  
 (en Python no es necesitas declarar el tipo de variable se asigna el tipo automáticamente según lo que guardemos.)  
 
-Tipos de datos básicos:
+**Tipos de datos básicos:**
 
 | Tipo            | Ejemplo      | Código           |
 | --------------  | ------------ | ---------------- |
@@ -82,5 +82,5 @@ Siempre usen nombres de variables descriptivos y comenten las partes importantes
 
 ---
 
-Tarea:
+**Tarea:**  
 Escribe un programa que que tome dos números y realice todas las operaciones matemáticas con ellos, mostrando los resultados y con comentarios explicando cada línea.

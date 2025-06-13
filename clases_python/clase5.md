@@ -17,7 +17,7 @@ Crear listas:
 *Sintaxis:*  
 ```
 lista_vacia = []
-frutas = ["manzana", "banana", "cereza"] 
+frutas = ["manzana", "platano", "cereza"] 
 ``` 
 
 *Acceder a elementos:*  

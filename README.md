@@ -4,9 +4,10 @@ Lo uso como mi espacio para aprender, practicar y guardar lo que voy haciendo.
 
 ## 📁 Estructura
 
-- `trabajos_universidad/`: Aquí están mis trabajos y ejercicios de la universidad.
+- `clases_python` : Clases de python por si quieres aprender :3.
 - `codigos_python/`: Códigos diversos en Python, ejemplos.
 - `proyectos` : Ideas y cosas que se me ocurren.
+- `trabajos_universidad/`: Aquí están mis trabajos y ejercicios de la universidad.
 
 ## 💡 Este repositorio es principalmente para:
 

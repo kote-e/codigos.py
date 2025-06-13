@@ -1,0 +1,26 @@
+# Abrir un archivo para lectura
+archivo= open("archivo.txt", "r")
+
+# Abrir un archivo para escritura
+archivo= open("archivo.txt", "w")
+
+# Abrir un archivo para añadir contenido
+archivo= open("archivo.txt", "a")
+
+# Leer el contenido del archivo
+contenido = archivo.read()
+
+# Abrir un archivo para lectura y escritura
+archivo = open("archivo.txt", "r+")
+
+# Escribir en el archivo
+archivo.write("Hola, mundo!\n")
+
+# Añadir contenido al final del archivo
+archivo.write("Añadiendo una nueva línea.\n")
+
+# Cerrar el archivo
+archivo.close()
+
+# Comprobar si el archivo está cerrado
+print(archivo.closed)  # Debería imprimir True si el archivo está cerrado

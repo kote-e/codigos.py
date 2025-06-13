@@ -7,7 +7,6 @@ Objetivo:
 ## 1. Instalación de Python
 
 •	Ve al sitio oficial de Python: [Descarga desde](https://www.python.org/downloads/)
-
 •	Descarga la versión más reciente de Python compatible con tu sistema operativo. 
 (IMPORTANTE: Marcar la casilla “Add Python to PATH” en el instalador ya que le dice al computadora cómo encontrar Python cuando lo uses en la terminal)
 

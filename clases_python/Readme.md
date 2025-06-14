@@ -1,5 +1,7 @@
-# Clases programación desde cero en Python
+# Clases Introducción a la Programación en Python
 
+
+Bienvenidos a mi curso de Python desde cero.  
 En estas clases las diseñe para enseñar los fundamentos de la programación utilizando el lenguaje Python.  
 Parten desde los conceptos más básicos como qué es un algoritmo y cómo pensar lógicamente la resolución de problemas.  
 
@@ -7,7 +9,7 @@ El curso está orientado a personas sin experiencia previa en programación o mu
 Cada clase combina teoría con ejercicios prácticos para reforzar el aprendizaje activo.
 
 
-## Resumen Guía Rápida por Clase
+## Estructura del curso
 
 |**Clase**| **Contenido clave**                    | **Tarea**                      |
 |:-------:|:--------------------------------------:|:------------------------------:|
@@ -22,9 +24,22 @@ Cada clase combina teoría con ejercicios prácticos para reforzar el aprendizaj
 | 9       | Clases, objetos, métodos               | Libro y CuentaBancaria         |
 | 10      | Herencia, polimorfismo                 | Vehiculo, Coche, Moto          |
 
+### Cada clase tiene:
+
+- Explicación teórica
+- Ejemplos prácticos
+- Ejercicios sugeridos
+
+
 ## Requisitos:
+- Lenguaje: Python 3.x
 - Dispositivo con sistema operativo Windows, Mac o Linux.
+- Editor sugerido: VS Code o PyCharm
 - Conexión a Internet para descargas e instalación.
 - Muchas ganas de aprender 🚀.
 
-> espero que les sirva :3
+---
+
+📩 Siéntete libre de usar, compartir o mejorar este material. Espero que les sirva :3
+
+---

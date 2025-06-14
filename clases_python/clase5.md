@@ -17,7 +17,8 @@ nombre = input("Ingrese su nombre: ")
 nombre= 'Juan'
 print("Mi nombre es",nombre)
 ```
-* Los valores literales '' y "" representan strings vacíos, es decir, un texto que no contiene caracteres.
+* Los valores literales '' y "" representan strings vacíos, es decir, un texto que no contiene caracteres.   
+*importante:* No es lo mismo " " (espacio) que "" (vacío total)  
 ```
 print("")
 a= " "

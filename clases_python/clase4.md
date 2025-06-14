@@ -70,29 +70,31 @@ Las bibliotecas en Python simplifican la programación al proporcionar código r
 
 ### *¿Cómo importar bibliotecas?*  
 
-Para oncluir una biblioteca o funcion en particular es sencillo y se realiza con la palabra clave ```import``` . Existen diferentes formas de importar: 
-*Importar toda la biblioteca:*  
+Para incluir una biblioteca o funcion en particular es sencillo y se realiza con la palabra clave ```import``` . Existen diferentes formas de importar: 
+
+- *Importar toda la biblioteca:*  
 ```
     import nombre_de_la_biblioteca
 ```   
+
+- Importar solo funciones específicas: 
+```   
+    from nombre_de_la_biblioteca import nombre_de_la_funcion
+```   
+Con esta opción, puedes usar la función directamente sin necesidad de especificar el nombre de la biblioteca. Por ejemplo:
+```
+    from math import sqrt
+    resultado = sqrt(25)
+    print(resultado)  # Salida: 5.0
+```
+
+
 Para utilizar una función de la biblioteca importada, debes usar el nombre de la biblioteca seguido de un punto y el nombre de la función. 
 *Por ejemplo:*   
 ```
     import math
     resultado = math.sqrt(16)
     print(resultado)  # Salida: 4.0
-```
-
-Importar solo funciones específicas: 
-```   
-    from nombre_de_la_biblioteca import nombre_de_la_funcion
-```
-
-Con esta opción, puedes usar la función directamente sin necesidad de especificar el nombre de la biblioteca. Por ejemplo:
-```
-    from math import sqrt
-    resultado = sqrt(25)
-    print(resultado)  # Salida: 5.0
 ```
 
 *Ejemplos de bibliotecas populares:*  

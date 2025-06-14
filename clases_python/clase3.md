@@ -14,13 +14,17 @@ Los condicionales permiten ejecutar bloques de código solo si se cumplen cierta
 **Sintaxis básica:**  
 
 ```
-if condicion: #Se usa para una condición inicial
-    # código si la  condicion se cumple
-elif otra_condicion: # Se usa para condiciones adicionales si la anterior no se cumple.
+if condicion1:  
+    # código que se ejecuta si la condicion1 se cumple.
+
+elif condicion2: 
     # código si la  condicion 2 se cumple
-else: #Se usa si ninguna de las condiciones anteriores se cumple.
-    # código si ninguna de las condiciones anteriores se cumple
+    
+else: #Se usa si ninguna de las condiciones se cumple.
+    # código cuando ninguna de las condiciones anteriores se cumple
 ```
+
+* No siempre se utilizan todos los condicionales, puedes ocupar solo un if si tienes 1 condicion.
 
 *Ejemplo:*
 

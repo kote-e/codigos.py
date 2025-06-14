@@ -2,9 +2,48 @@
 
 ## Objetivo
 
-- Aprender a crear y manipular listas en Python.
-- Conocer las operaciones comunes que se pueden realizar con listas.
+- Trabajar con colecciones de datos y cadenas de texto. 
+- Aprender a crear y manipular listas en Python y conocer las operaciones comunes que se pueden realizar con estas.
 - Comprender qué son las tuplas y en qué se diferencian de las listas.
+
+---
+
+## Strings
+
+Son el tipo de dato usado para representar texto en python.  
+*Strings en entradas y salidas de datos*
+```
+nombre = input("Ingrese su nombre: ")
+nombre= 'Juan'
+print("Mi nombre es",nombre)
+```
+* Los valores literales '' y "" representan strings vacíos, es decir, un texto que no contiene caracteres.
+```
+print("")
+a= " "
+```
+*Estructura de un String*  
+un string esta compuesto por caracteres.  
+*por ejemplo:* "hola mundo!" tiene 11 caracteres. 
+los cuales estan numerados por indices. Los caracteres de un string se numeran de izquierda a derecha, comenzando en `0`de la siguiente forma:  
+
+| h | o | l | a |   | m | u | n | d | o | ! |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 |
+
+Se puede acceder al caracter que se encuentra en una posicion.
+*ejempli:*
+```
+a = "hola mundo!"
+#obtiene el caracter que esta en el indice 5 y lo muestra por pantalla
+print(a[5])
+```  
+
+También se puede enumerar los caracteres de un string desde el final hacia el inicio, usando índices negativos que comienzan en `-1`:
+
+| h  | o  | l  | a  |   | m  | u  | n  | d  | o  | !  |
+|----|----|----|----|---|----|----|----|----|----|----|
+| -11| -10| -9 | -8 | -7| -6 | -5 | -4 | -3 | -2 | -1 |
 
 ---
 

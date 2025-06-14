@@ -106,7 +106,7 @@ Para utilizar una función de la biblioteca importada, debes usar el nombre de l
 
 ---
 
-***Tarea:***  
+**Tarea:**  
 Crear una función es_par(numero) que devuelva True o False.  
 Crear una función area_rectangulo(ancho, alto) que calcule el área.
 Importar math y usar sqrt, pow, pi.

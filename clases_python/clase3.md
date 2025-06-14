@@ -38,6 +38,10 @@ elif edad == 18:
 else:
     print("Eres mayor de edad")
 ```
+En las condicines se pueden utilizar operadores logicos, que permitir construir expreciones que reepresentan condiciones complejas como estas:  
+- *Construcion logica:*  ```x==y and x>g``` 
+- *Disyunción logia:*    ```x==y or x=! y```
+- *Negación logica:*     ```not x==y```
 
 ---
 

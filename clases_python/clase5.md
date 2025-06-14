@@ -4,7 +4,6 @@
 
 - Trabajar con colecciones de datos y cadenas de texto. 
 - Aprender a crear y manipular listas en Python y conocer las operaciones comunes que se pueden realizar con estas.
-- Comprender qué son las tuplas y en qué se diferencian de las listas.
 
 ---
 

@@ -1,0 +1,4 @@
+# Escribe un programa Pida dos números al usuario y realice todas las operaciones matemáticas con ellos, mostrando los resultados y con comentarios explicando cada línea.
+x = input("Escriba su numero 1 aqui :3 :")
+y = input("Escriba su numero 2 aqui :3 :")
+print("primero sumamos",x+y,"restamos",x-y,"divimos",x/y,"El resto de la div",x%y,"la potencia",x**y,"la multi",x*y,"y la div entera",x//y,)

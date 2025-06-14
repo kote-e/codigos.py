@@ -70,7 +70,21 @@ Entonces:
     - Repetición de strings (*)     ```"aa" * 3 ```           → 'aaaaaa'
     - contenido de un string (in)   ```"pollo" in "Repollo"```→ True
     - Cantidad de caracteres (lend) ```lend("hola") ```       → 4
- 
+
+
+
+* Si tenemos una variable de tipo string  podemos convertir todos los elementos de estas sean mayusculas o minusculas de la siguiente forma:  
+    - ```nombre_variable.lower()```   #Cambia el string a minusculas
+    - ```nombre_variable.upper()```   #Cambia el strin a minusculas
+*importante:* no modifica el string original
+(Un mismo caracter escrito en mayúsculas es distinto que el mismo caracter en minúsculas)
+*Ejemplo:*
+``` 
+palabra = "Hola"
+mayuscula = palabra.upper()
+minuscula = palabra.lower()
+```  
+
 
 ---
 

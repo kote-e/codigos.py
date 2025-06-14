@@ -1,3 +1,7 @@
+```print "Hola mundo" y realiza una suma básica```
+print("Hola mundo")
+print(3 + 5)
+
 '''Tipos de datos básicos:'''
 x = 10
 pi = 3.14

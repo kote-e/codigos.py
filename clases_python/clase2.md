@@ -8,6 +8,17 @@
 
 ---
 
+## ¿Qué es print()?
+
+Es una función de salida.  
+Sirve para mostrar información en la Terminal.
+```
+print("Hola mundo")
+print(3 + 5)
+```
+
+---
+
 ## Variables y Tipos de Datos
 
 Las variables son espacios en la memoria que almacenan datos  

@@ -2,13 +2,28 @@
 
 ## Objetivo
 
+- Entender qué es un algoritmo
 - Instalar Python y un entorno de desarrollo integrado (IDE).
 - Familiarizarse con la terminal y la interfaz del IDE.
 - Ejecutar el primer script en Python: "Hello, World!".
 
 ---
 
-## 1. Instalación de Python
+## ¿Qué es un algoritmo?
+
+Antes de instalar nada, tenemos que entender qué es programar.  
+Un algoritmo es una secuencia ordenada de pasos para resolver un problema. En este caso sirven para que la computadora entienda lo que queremos hacer.  
+
+ *Ejemplo: preparar té*  
+   * Calentar agua
+  * Poner el té en la taza
+  * Verter agua caliente
+  * Esperar 3 minutos
+  * Servir 
+
+Esto también es un algoritmo, pero en programación le daremos estas instrucciones a una computadora usando un lenguaje: en este caso, Python.  
+
+## Instalación de Python
 
 - Ve al sitio oficial de Python: [Descarga desde](https://www.python.org/downloads/)
 - Descarga la versión más reciente de Python compatible con tu sistema operativo.  
@@ -16,7 +31,7 @@
 
 ---
 
-## 2. Instalación del IDE
+## Instalación del IDE
 
 **Primero, ¿qué es un IDE?**
 
@@ -37,7 +52,7 @@ Es como un cuaderno inteligente donde vamos a escribir y ejecutar nuestro códig
 
 ---
 
-## 3. Introducción a la Terminal y al IDE
+## Introducción a la Terminal y al IDE
 
 - **Terminal:** La terminal es esa pantallita negra donde vamos a ejecutar comandos. Es como hablarle directamente a la computadora.  
   Para usarla:
@@ -50,7 +65,7 @@ Para comprobar si Python quedó instalado, escribe:
 ```python --version```
 Si todo está bien, deberían ver algo como: Python 3.12.2 (la versión puede variar)
 
-## 4. Primer programa: ¡Hola Mundo!
+## Primer programa: ¡Hola Mundo!
 Vamos a escribir nuestro primer código:
 
 - Creamos un archivo llamado hello.py.
@@ -66,6 +81,3 @@ Si ven el mensaje Hello, World!, ¡felicitaciones¡
 - "Hello, World!" es un string (cadena de texto).
 
 ---
-
-**Tarea:**
-Prueben hacer más mensajes con print(). Por ejemplo, imprimir tu nombre, edad, o lo que quieras.

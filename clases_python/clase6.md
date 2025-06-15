@@ -91,13 +91,13 @@ for pa in patas:
 
 ### Cuándo usar listas y diccionarios
 
-| Situación       | Usar listas cuando                                        | Usar diccionarios cuando                                                   |
-|-----------------|-----------------------------------------------------------|----------------------------------------------------------------------------|
-| Identificación  | No necesitas identificar los datos con un nombre especial | Quieres asociar una clave con cada dato                                    |
-| Orden           | El orden es importante                                    | El orden no es tan importante (aunque desde Python 3.7 sí conservan orden) |
-| Acceso          | Accedes a los datos por posición (índice)                 | Accedes por clave                                                          |
-| Ejecución típica| Recorrer secuencialmente                                  | Buscar rápidamente un dato por clave                                       |
-| Tipo de datos   | Datos simples o secuencias                                | Datos estructurados con relación clave-valor                               |
+| Situación         | Usar listas cuando                                         | Usar diccionarios cuando                                                    |
+|-------------------|------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Identificación    | No necesitas identificar los datos con un nombre especial  | Quieres asociar una clave con cada dato                                     |
+| Orden             | El orden es importante                                     | El orden no es tan importante (aunque desde Python 3.7 sí conservan orden)  |
+| Acceso            | Accedes a los datos por posición (índice)                  | Accedes por clave                                                           |
+| Ejecución típica  | Recorrer secuencialmente                                   | Buscar rápidamente un dato por clave                                        |
+| Tipo de datos     | Datos simples o secuencias                                 | Datos estructurados con relación clave-valor                                |
 
 ### Resumen express
 
@@ -111,4 +111,4 @@ for pa in patas:
 ---
 
 **Tarea:**  
-Crea un diccionario con información sobre ti (nombre, edad, carrera, trabajo o materias, etc.)
+Crea un diccionario con información sobre ti (nombre / edad / carrera, trabajo o materias, etc.) y Agregarle una ciudad.

@@ -20,9 +20,6 @@ Cada clase combina teoría con ejercicios prácticos para reforzar el aprendizaj
 | 5       | Listas, tuplas, strings, ASCII         | Manipular colecciones y strings|
 | 6       | Diccionarios, conjuntos                | Diccionario personal, conjuntos|
 | 7       | Archivos (open, with)                  | Crear y leer archivo           |
-| 8       | Módulos y reutilización                | Módulo geometria.py            |
-| 9       | Clases, objetos, métodos               | Libro y CuentaBancaria         |
-| 10      | Herencia, polimorfismo                 | Vehiculo, Coche, Moto          |
 
 ### Cada clase tiene:
 

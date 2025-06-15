@@ -51,8 +51,64 @@ patas = {'humano': 2, 'pulpo': 8, 'perro': 4, 'gato': 4}
 print(patas['gato']) → imprime el elemento que esta en la llave gato en este caso 4
 ```  
 
+*Modificar diccionarios:* 
+Al igual que las listas, los dicionarios son mutables, por lo que podemos:  
+- Agregar elementos:  
+```
+atas = {'humano': 2, 'perro': 5, 'gato': 4}
+patas['pulpo'] = 8 # esto agrega un llave llamada pulpo y se le asigna el valor 8
+```   
+- Eliminar elementos:   
+```  
+persona = {"nombre": "Juan", "edad": 20}
+del persona["edad"] # esto borra la llave edad
+```   
+- Cambiar elementos:  
+```  
+patas = {'humano': 2, 'pulpo': 8, 'perro': 5, 'gato': 4}
+patas["perro"] = 4
+```   
+
+## Otras operaciones útiles en Diccionarios
+*Cantidad de elementos:*  
+```
+print(len(patas))
+```  
+*Saber si una llave está en el diccionario:*  
+```
+print('pulpo' in patas)  # True
+```   
+*Recorrer diccionarios:*    
+Un ciclo for puede ser usado para recorrer un diccionario:
+```
+for pa in patas:
+    print(pa)        #esto imprime las llaves
+    print(patas[pa]) #esto imprime el elemento en la llave pa
+```  
+
+- Una de las grandes diferencias de las listas y los diccionarios es cuando usarlos, Cuando el orden o la secuencia es importante ysamos una lista y Cuando quieres asociar una clave con un valor (como un mini "archivo de datos") usamos un duiccionario.
+- otra diferencia es que las listas si pueden tener elementos repetidos, en cambio en los diccionarios las claves no pueden repetirse (los valores sí).
+
+### Cuándo usar listas y diccionarios
+
+| Situación       | Usar listas cuando                                        | Usar diccionarios cuando                                                   |
+|-----------------|-----------------------------------------------------------|----------------------------------------------------------------------------|
+| Identificación  | No necesitas identificar los datos con un nombre especial | Quieres asociar una clave con cada dato                                    |
+| Orden           | El orden es importante                                    | El orden no es tan importante (aunque desde Python 3.7 sí conservan orden) |
+| Acceso          | Accedes a los datos por posición (índice)                 | Accedes por clave                                                          |
+| Ejecución típica| Recorrer secuencialmente                                  | Buscar rápidamente un dato por clave                                       |
+| Tipo de datos   | Datos simples o secuencias                                | Datos estructurados con relación clave-valor                               |
+
+### Resumen express
+
+| Quiero…                                 | Uso         |
+|-----------------------------------------|-------------|
+| Almacenar varios datos simples en orden | Lista       |
+| Asociar un dato a un nombre o clave     | Diccionario |
+| Recorrer por posición                   | Lista       |
+| Acceder directo por nombre (clave)      | Diccionario |
+
 ---
 
-
 **Tarea:**  
-Crea un diccionario con información sobre ti (nombre, edad, carrera, etc.)
+Crea un diccionario con información sobre ti (nombre, edad, carrera, trabajo o materias, etc.)

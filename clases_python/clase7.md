@@ -47,3 +47,9 @@ Puedes leer archivos completos, leer línea por línea, o leer un número espec�
 ## Escribir en Archivos
 
 Puedes escribir texto en un archivo existente o crear uno nuevo si no existe.
+
+
+---
+
+**Tarea:**  
+Crear un archivo mis_notas.txt y escribir en él tus notas de 3 materias distintas. Luego Leer el archivo e imprimir su contenido completo línea por línea y agregar una línea adicional al archivo.

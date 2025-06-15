@@ -17,8 +17,8 @@ Cada clase combina teoría con ejercicios prácticos para reforzar el aprendizaj
 | 2       | print(), variables, input() y tipos    | Operaciones y comentarios      |
 | 3       | if, for, while, range                  | Par/impar y lista con for      |
 | 4       | Funciones y import                     | Funciones básicas y math       |
-| 5       | Listas, tuplas, strings, ASCII         | Manipular colecciones y strings|
-| 6       | Diccionarios, conjuntos                | Diccionario personal, conjuntos|
+| 5       | Listas, strings, ASCII                 | Manipular colecciones y strings|
+| 6       | Diccionarios,                          | Diccionario personal, conjuntos|
 | 7       | Archivos (open, with)                  | Crear y leer archivo           |
 
 ### Cada clase tiene:

@@ -2,8 +2,10 @@
 
 ## Objetivo
 
+- Aprender a usar print() para mostrar datos.
 - Entender cómo declarar y usar variables en Python.
 - Conocer los tipos de datos básicos y cómo funcionan.
+- Usar input() para obtener información del usuario.
 - cómo escribir un código bien documentado.
 
 ---
@@ -55,7 +57,7 @@ Operaciones comunes:
 - Multiplicación (*)  
 - División (/)  
 - Potencia (**)  
-- Módulo (%): Retorna el residuo de la división  
+- Módulo (%): Retorna el resto de la división  
 
 *Ejemplo:*
 ```
@@ -107,8 +109,8 @@ Fíjense que usamos ```int()``` para convertir a entero, o ```float()``` para co
 
 Los comentarios son líneas en el código que Python ignora al ejecutar. Se usan para explicar partes del código y mejorar la legibilidad. (nos ayudan a entender el código.)  
 Sintaxis de Comentarios:  
-* Comentarios de una línea: Se usan con el símbolo #.
-* Comentarios de múltiples líneas: Se pueden hacer usando comillas triples """.  
+* Comentarios de una línea: Se usan con el símbolo #____.
+* Comentarios de múltiples líneas: Se pueden hacer usando comillas triples """----""".  
 *Ejemplo:*  
 ```  
 # Esto es un comentario de una línea

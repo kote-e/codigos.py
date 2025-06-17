@@ -5,13 +5,13 @@
 - Entender qué es un algoritmo
 - Instalar Python y un entorno de desarrollo integrado (IDE).
 - Familiarizarse con la terminal y la interfaz del IDE.
-- Ejecutar el primer script en Python: "Hello, World!".
+- Ejecutar el primer programa en Python: "Hello, World!".
 
 ---
 
 ## ¿Qué es un algoritmo?
 
-Antes de instalar nada, tenemos que entender qué es programar.  
+Antes de instalar nada, tenemos que entender qué es programar y que es un algoritmo.  
 Un algoritmo es una secuencia ordenada de pasos para resolver un problema. En este caso sirven para que la computadora entienda lo que queremos hacer.  
 
  *Ejemplo: preparar té*  
@@ -35,7 +35,7 @@ Esto también es un algoritmo, pero en programación le daremos estas instruccio
 
 **Primero, ¿qué es un IDE?**
 
-Es una aplicación de software que combina varias herramientas necesarias para desarrollar código de forma eficiente.  
+Un IDE (Entorno de Desarrollo Integrado) es una aplicación de software que combina varias herramientas necesarias para desarrollar código de forma eficiente.  
 Es como un cuaderno inteligente donde vamos a escribir y ejecutar nuestro código cómodamente.
 
 ### Paso 1: Descarga e Instalación de un IDE
@@ -63,6 +63,7 @@ Es como un cuaderno inteligente donde vamos a escribir y ejecutar nuestro códig
 Para comprobar si Python quedó instalado, escribe:
 
 ```python --version```
+
 Si todo está bien, deberían ver algo como: Python 3.12.2 (la versión puede variar)
 
 ## Primer programa: ¡Hola Mundo!
@@ -81,3 +82,8 @@ Si ven el mensaje Hello, World!, ¡felicitaciones¡
 - "Hello, World!" es un string (cadena de texto).
 
 ---
+
+## Recursos Extra
+
+[Documentación oficial de Python](https://docs.python.org/3/)  
+[W3Schools Python Tutorial](https://www.w3schools.com/python/)

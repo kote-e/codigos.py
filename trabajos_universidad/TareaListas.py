@@ -1,3 +1,4 @@
+#funcion que devuelve una lista con los géneros mejor calificados
 def generos_mejor_calificados(series):
     mejores_generos = []
     acumulados = []
@@ -26,6 +27,7 @@ def generos_mejor_calificados(series):
     mejores_generos = [item[0] for item in acumulados[:5]]
     return mejores_generos
 
+# Función que recomienda series basadas en el año y géneros
 def recomendar_series(series, año, lista_generos):
     recomendadas = []
     for s in series:
@@ -54,7 +56,8 @@ def recomendar_series(series, año, lista_generos):
 
 
 
-# programa principal
+""" programa principal """
+# Lista de series con sus detalles: [título, año de inicio, año de fin, calificación, votos, géneros]
 series=[["The Office",2005,2013,9,770815,["Comedia"]],
 ["Breaking Bad",2008,2013,9.5,2314919,["Crimen", "Drama", "Suspenso"]],
 ["Band of Brothers",2001,2001,9.4,559518,["Acción", "Drama", "Histórica"]],
@@ -73,11 +76,11 @@ series=[["The Office",2005,2013,9,770815,["Comedia"]],
 ["The Mandalorian",2019,"NA",8.6,621020,["Acción", "Aventura", "Fantasía"]],
 ["House of Cards",2013,2018,8.6,545828,["Drama"]]]
 
-#ejercicio 1
+#ejercicio 1:  mostrar los 5 géneros mejor calificados
 print("P1:")
 print(generos_mejor_calificados(series))
 
-#ejercicio 2
+#ejercicio 2: mostrar recomendaciones para distintos escenarios
 print("P2:")
 print(recomendar_series(series,2017,["Drama"]))
 print(recomendar_series(series,2020,["Animación"]))

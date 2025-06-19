@@ -1,3 +1,4 @@
+# funcion que calcula el promedio del IMC por estado de salud y escribe en un archivo
 def  promedioIMC_por_estado_de_salud (nombre_archivo, estado_salud):
     archivo = open(nombre_archivo, "r")
     archivo_chec= open(f"{estado_salud}-IMC.txt", "w")
@@ -26,7 +27,7 @@ def  promedioIMC_por_estado_de_salud (nombre_archivo, estado_salud):
     archivo_chec.close
     return chequeoimc
 
-
+# Función que analiza el estado de salud y escribe en archivos separados. según si hacen ejercicio o no, y cuenta cuántos estados de salud hay.
 def estado_de_salud(nombre_archivo):
     contador = 0
     archivo = open(nombre_archivo, "r")

@@ -1,3 +1,4 @@
+# Funcion que lee un archivo de speedruns y devuelve una lista de usuarios baneados
 def baneados(nombre_archivo):
     archivo= open(nombre_archivo, "r")
     baneados = []
@@ -9,6 +10,7 @@ def baneados(nombre_archivo):
     archivo.close()
     return baneados
 
+# Funcion que convierte un tiempo en formato "HH:MM:SS" a segundos
 def convertir_tiempo (tiempo_str):
     partes = tiempo_str.split(":")
     enteros = []
@@ -16,6 +18,7 @@ def convertir_tiempo (tiempo_str):
         enteros.append(int(elemento))
     return enteros[0] * 3600 + enteros[1] * 60 + enteros[2]
 
+# Funcion que genera un ranking de speedruns por juego y categoria
 def ranking(nombre_archivo, juego):
     archivo= open(nombre_archivo, "r")
     ranking_juego = {}
@@ -46,6 +49,7 @@ def ranking(nombre_archivo, juego):
 
     return ranking_juego
 
+# Funcion que genera un reporte de speedruns por juego y categoria
 def reporte(nombre_archivo):
     archivo= open(nombre_archivo, "r")
     juegos=[]
@@ -78,6 +82,6 @@ def reporte(nombre_archivo):
 #ranking_juego = ranking("speedruns.txt", "Donkey Kong Country")
 #print(ranking_juego)
 
-
+# Genera el reporte de speedruns y guarda los resultados en archivos por juego. El reporte se guarda en archivos con el nombre del juego
 reportee= reporte("speedruns.txt")
 print(reportee)

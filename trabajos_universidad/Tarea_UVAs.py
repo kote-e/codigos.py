@@ -1,3 +1,4 @@
+# Función que elimina espacios innecesarios del texto (espacios dobles, al inicio o final)
 def eliminar_espacios_sobrantes(texto):
     resultado = ""
     agregar_espacio = False
@@ -14,11 +15,13 @@ def eliminar_espacios_sobrantes(texto):
                 agregar_espacio = False
         i += 1
 
+    # Elimina el espacio al final si existe
     if len(resultado) > 0 and resultado[len(resultado) - 1] == " ":
         resultado = resultado[:len(resultado) - 1]
 
     return resultado
 
+# Función que invierte las palabras del texto que comienzan con vocales
 def invertir_palabras(texto):
     i = 0
     texto_inv = ""
@@ -47,6 +50,7 @@ def invertir_palabras(texto):
 
     return texto_inv
 
+# Función que obtiene las letras iniciales de las palabras impar
 def impar(texto):
     i = 0
     texto_mensaje=""
@@ -62,6 +66,7 @@ def impar(texto):
 
     return texto_mensaje
 
+# Función que elimina los signos de puntuación del texto
 def eliminar_signos(texto):
     limpio = ""
     i = 0
@@ -73,6 +78,7 @@ def eliminar_signos(texto):
     return limpio
 
 
+""" Programa principal que recibe un mensaje y lo procesa para ocultar información."""
 mensaje = input("Mensaje recibido: ").lower()  
 
 while mensaje.lower() != "fin":             

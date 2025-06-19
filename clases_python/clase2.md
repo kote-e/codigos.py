@@ -127,5 +127,14 @@ Siempre usen nombres de variables descriptivos y comenten las partes importantes
 
 ---
 
+## Recomendaciones
+
+- Usa nombres claros para tus variables (nombre, edad, total, etc.).
+- Agrega comentarios que te ayuden a recordar qué hace cada parte.
+- Prueba siempre tu código varias veces cambiando los valores de entrada.
+
+---
+
+
 **Tarea:**  
 Escribe un programa Pida dos números al usuario y realice todas las operaciones matemáticas con ellos, mostrando los resultados y con comentarios explicando cada línea.

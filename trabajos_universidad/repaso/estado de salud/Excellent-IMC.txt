@@ -1,0 +1,5 @@
+Within the past 2 years: 25.87757684060043
+Within the past year: 26.170255358995774
+Within the past 5 years: 25.913592655230733
+5 or more years ago: 26.086285146265265
+Never: 26.130749354005168

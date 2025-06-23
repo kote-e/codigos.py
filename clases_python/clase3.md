@@ -29,7 +29,7 @@ else: #Se usa si ninguna de las condiciones se cumple.
 *Ejemplo:*
 
 ```
-edad = 20
+edad = int(input("Ingresa tu edad: "))
 
 if edad < 18:
     print("Eres menor de edad")
@@ -39,16 +39,22 @@ else:
     print("Eres mayor de edad")
 ```
 En las condicines se pueden utilizar operadores logicos, que permitir construir expreciones que reepresentan condiciones complejas como estas:  
-- *Construcion logica:*  ```x==y and x>g``` 
-- *Disyunción logia:*    ```x==y or x=! y```
-- *Negación logica:*     ```not x==y```
+Podemos usar estos operadores para crear condiciones más complejas:
+
+| Operador | Significado        | Ejemplo             |
+|----------|--------------------|---------------------|
+| and      | Y lógico           | x > 0 and x < 10    |
+| or       | O lógico           | x == 0 or y == 0    |
+| not      | Negación lógica    | not x == y          |
 
 ---
 
 ## Bucles (Repeticiones)
 
-Los bucles permiten repetir un bloque de código varias veces.
-*Tipos de bucles:*  
+Los bucles permiten repetir un bloque de código varias veces. Hay dos tipos principales:
+
+*Tipos de bucles:* 
+
 -while: Repite el bloque de código mientras la condición sea verdadera.  
 -for: Itera sobre una secuencia (como una lista, cadena, o rango).  
 
@@ -78,7 +84,7 @@ for i in range(5):
     print(i)  # imprimirá del 0 al 4
 ```  
 
-- len(): Nos dice cuántos elementos tiene algo.  
+- len(): Nos dice cuántos elementos tiene una variable.  
 ```
 frutas = ["manzana", "banana", "cereza"]
 print(len(frutas))  # salida: 3

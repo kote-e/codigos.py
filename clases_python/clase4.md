@@ -11,12 +11,12 @@
 ## Definición y Uso de Funciones
 
 ***¿Qué es una función?***  
-Es un bloque de código que podemos reutilizar cada vez que queramos.  
+Es un bloque de código que ejecuta una tarea específica, que podemos reutilizar cada vez que queramos.  
 *Sintaxis:*  
 ```
 def nombre_funcion(parametros):
-    # código
-    return resultado
+    # código que realiza una tarea
+    return valor  # (opcional)
 ```
 
 *Ejemplo:*  

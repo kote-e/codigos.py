@@ -62,10 +62,14 @@ print("Suma:", s)
 print("Resta:", r)
 ```
 
+* *Puedes llamar funciones dentro de otras:*
+
+
 ---
 
 ## bibliotecas
 
+*¿Qué es una biblioteca?*
 Las bibliotecas en Python simplifican la programación al proporcionar código reutilizable para realizar tareas comunes. En lugar de escribir código desde cero para cada proyecto, puedes importar bibliotecas que ya implementan esas funcionalidades, ahorrando tiempo y esfuerzo. Por ejemplo, si necesitas realizar cálculos matemáticos complejos, puedes importar la biblioteca math en lugar de escribir todas las funciones tú mismo.
 
 ### *¿Cómo importar bibliotecas?*  

@@ -2,20 +2,22 @@
 
 ## Objetivo
 
-- Trabajar con colecciones de datos y cadenas de texto. 
+- Comprender qué son los strings (cadenas de texto) y cómo manipularlos.
 - Aprender a crear y manipular listas en Python y conocer las operaciones comunes que se pueden realizar con estas.
+- Usar operaciones básicas y avanzadas con colecciones de datos.
 
 ---
 
 ## Strings
 
-Son el tipo de dato usado para representar texto en python.  
+Es una secuencia de caracteres usada para representar texto. Tambien es un tipo de dato usado para representar texto en python.  
 *Strings en entradas y salidas de datos*
 ```
 nombre = input("Ingrese su nombre: ")
 nombre= 'Juan'
 print("Mi nombre es",nombre)
 ```
+* Los strings se pueden escribir con 'comillas simples' o "comillas dobles".   
 * Los valores literales '' y "" representan strings vacíos, es decir, un texto que no contiene caracteres.   
 *importante:* No es lo mismo " " (espacio) que "" (vacío total)  
 ```
@@ -32,7 +34,7 @@ los cuales estan numerados por indices. Los caracteres de un string se numeran d
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 |
 
 Se puede acceder al caracter que se encuentra en una posicion.
-*ejempli:*
+*ejemplo:*
 ```
 a = "hola mundo!"
 #obtiene el caracter que esta en el indice 5 y lo muestra por pantalla
@@ -66,23 +68,29 @@ Entonces:
 
 
 * Algunos operadores definidos anteriormente para números, también tienen una función al aplicarse sobre strings
-    - Concatenación de strings (+)  ```"hola" +  "mundo"```   → 'holamundo'
-    - Repetición de strings (*)     ```"aa" * 3 ```           → 'aaaaaa'
-    - contenido de un string (in)   ```"pollo" in "Repollo"```→ True
-    - Cantidad de caracteres (lend) ```lend("hola") ```       → 4
-
+| Operación                 | Ejemplo                            | Resultado          |
+|---------------------------|------------------------------------|--------------------|
+| Concatenación (`+`)       | `"hola" + " mundo"`                | `"hola mundo"`     |
+| Repetición (`*`)          | `"ha" * 3`                         | `"hahaha"`         |
+| Inclusión (`in`)          | `"sol" in "girasol"`               | `True`             |
+| Longitud (`len()`)        | `len("hola")`                      | `4`                |
+| Mayúsculas / minúsculas   | `"Hola".lower()` / `"hola".upper()`| `"hola"` / `"HOLA"`|
 
 
 * Si tenemos una variable de tipo string  podemos convertir todos los elementos de estas sean mayusculas o minusculas de la siguiente forma:  
     - ```nombre_variable.lower()```   #Cambia el string a minusculas
     - ```nombre_variable.upper()```   #Cambia el strin a minusculas
+
 *importante:* no modifica el string original
 (Un mismo caracter escrito en mayúsculas es distinto que el mismo caracter en minúsculas)
-*Ejemplo:*
+
+*Ejemplos:*
 ``` 
-palabra = "Hola"
-mayuscula = palabra.upper()
-minuscula = palabra.lower()
+frase = "Python es genial"
+print("Longitud:", len(frase))
+print("Mayúsculas:", frase.upper())
+print("Subcadena:", frase[0:6])
+print("¿Contiene 'genial'?", "genial" in frase)
 ```  
 
 
@@ -90,6 +98,7 @@ minuscula = palabra.lower()
 
 ## Listas
 
+*¿Qué es una lista?*
 Una lista es una colección ordenada y mutable de elementos. Permite guardar varios valores en una sola variable.  
 Se puede cambiar su tamaño y modificar sus elementos.   
 > Mutable → podemos agregar, quitar o cambiar elementos. 
@@ -98,7 +107,7 @@ Se puede cambiar su tamaño y modificar sus elementos.
 ```
 lista_vacia = []                           # Lista vacía
 lista_numeros = [1, 2, 3, 4, 5]            # Lista de números
-frutas = ["manzana", "platano", "cereza"]  # Lista de frutas   
+nombres = ["Ana", "Luis", "Sofía"]         # Lista de nombres  
 numeros =list(range(5))                    # lista de secuencia ordenada de números enteros ordenados, va desde 0 hasta fin−1.
 ``` 
 
@@ -106,6 +115,7 @@ numeros =list(range(5))                    # lista de secuencia ordenada de núm
 Al igual que los Strings, las listas tienen índices para enumerar sus elementos.
 
 ```
+frutas = ["manzana", "platano", "cereza"]
 print(lista_vacia)       # []
 print(lista_numeros)     # [1, 2, 3, 4, 5]
 print(lista_numeros[0])  # 1  → primer elemento

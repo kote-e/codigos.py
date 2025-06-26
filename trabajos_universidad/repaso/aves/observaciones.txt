@@ -5,3 +5,16 @@
 2019/12/14:Curico:Loica,Queltehue
 2019/12/17:Valdivia:Cisne,Colibri,Cormoran
 2019/12/15:Curico:Chercan,Loica,Colibri
+2019/12/13:Coquimbo:Canquén,Tagua
+2019/12/16:Chillan:Loica,Torcaza
+2019/12/12:Puerto Montt:Rayador,Gaviota
+2019/12/18:Temuco:Peuco,Chercan
+2019/12/14:La Serena:Colibri,Zorzal
+2019/12/19:Concepcion:Tenca,Queltehue
+2019/12/20:La Serena:Pelicano,Cisne
+2019/12/21:Puerto Varas:Cormoran,Rayador
+2019/12/22:Ancud:Chercan,Choroy
+2019/12/16:Osorno:Torcaza,Zorzal
+2019/12/15:Copiapo:Tagua,Choroy
+2019/12/17:Talcahuano:Peuco,Gaviota
+2019/12/23:Antofagasta:Pelicano,Tenca

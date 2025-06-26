@@ -1,0 +1,61 @@
+Valparaiso:
+2019/12/17: Chercan
+2019/12/17: Pelicano
+2019/12/19: Colibri
+2019/12/19: Gaviota
+Santiago:
+2019/12/15: Chercan
+2019/12/15: Paloma
+2019/12/15: Tenca
+2019/12/15: Zorzal
+2019/12/20: Chercan
+2019/12/20: Loica
+2019/12/20: Paloma
+Curico:
+2019/12/14: Loica
+2019/12/14: Queltehue
+2019/12/15: Chercan
+2019/12/15: Colibri
+2019/12/15: Loica
+Valdivia:
+2019/12/17: Cisne
+2019/12/17: Colibri
+2019/12/17: Cormoran
+Coquimbo:
+2019/12/13: Canquén
+2019/12/13: Tagua
+Chillan:
+2019/12/16: Loica
+2019/12/16: Torcaza
+Puerto Montt:
+2019/12/12: Gaviota
+2019/12/12: Rayador
+Temuco:
+2019/12/18: Chercan
+2019/12/18: Peuco
+La Serena:
+2019/12/14: Colibri
+2019/12/14: Zorzal
+2019/12/20: Cisne
+2019/12/20: Pelicano
+Concepcion:
+2019/12/19: Queltehue
+2019/12/19: Tenca
+Puerto Varas:
+2019/12/21: Cormoran
+2019/12/21: Rayador
+Ancud:
+2019/12/22: Chercan
+2019/12/22: Choroy
+Osorno:
+2019/12/16: Torcaza
+2019/12/16: Zorzal
+Copiapo:
+2019/12/15: Choroy
+2019/12/15: Tagua
+Talcahuano:
+2019/12/17: Gaviota
+2019/12/17: Peuco
+Antofagasta:
+2019/12/23: Pelicano
+2019/12/23: Tenca

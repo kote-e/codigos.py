@@ -81,12 +81,12 @@ def agrupa_por_ciudad_y_especie(nombre_archivo):
     for especie in observaciones:
         new_archivo = open(f"vistos_por_ciudad_{especie}.txt", "w")
         new_archivo.write(f"{especie}:\n")
-        new_archivo.write("\n")
+
         for ciudad in observaciones[especie]:
+            new_archivo.write("\n")
             new_archivo.write(f"{ciudad}:\n")
             for fecha in observaciones[especie][ciudad]:
                 new_archivo.write(f"{fecha}\n")
-            new_archivo.write("\n")
         new_archivo.close()
 
     archivo.close()

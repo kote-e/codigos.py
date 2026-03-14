@@ -16,7 +16,7 @@ reloj = pygame.time.Clock() # Reloj para controlar los FPS
 
 
 # imagenes
-fondo = pygame.image.load(r"imagenes\Fondo.png").convert() # Carga la imagen de fondo
+fondo = pygame.image.load("imagenes/Fondo.png").convert() # Carga la imagen de fondo
 fondo = pygame.transform.scale(fondo, (ANCHO, ALTO)) # Escala la imagen al tamaño de la ventana
 
 cafe= pygame.image.load("imagenes/cafe.png").convert_alpha() # Carga la imagen de la taza de café

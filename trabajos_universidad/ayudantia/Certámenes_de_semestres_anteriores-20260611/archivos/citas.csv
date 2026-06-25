@@ -1,0 +1,101 @@
+idpaciente;fecha;hora;especialista;especialidad;tipo
+889593;2025/06/30;10:00;Dr. Latido Fuerte;Cardiología;Telemedicina
+795454;2025/06/27;11:00;Dr. Marcelo Miocardio;Cardiología;Presencial
+862187;2025/06/29;12:45;Dr. Latido Fuerte;Cardiología;Presencial
+568877;2025/06/28;09:15;Dra. Clara Iris;Oftalmología;Telefónica
+320128;2025/06/27;16:00;Dr. Latido Fuerte;Cardiología;Presencial
+441713;2025/06/26;13:15;Dra. V. Entrículo;Cardiología;Telefónica
+658789;2025/06/30;14:45;Dra. Clara Iris;Oftalmología;Presencial
+202923;2025/06/27;12:45;Dr. Latido Fuerte;Cardiología;Telefónica
+438661;2025/06/29;12:30;Dra. Clara Iris;Oftalmología;Telemedicina
+662096;2025/06/28;11:30;Dr. Marcelo Miocardio;Cardiología;Telefónica
+722702;2025/07/08;09:45;Dra. V. Entrículo;Cardiología;Telemedicina
+494496;2025/07/28;15:00;Dr. L.A. Pastilla;Medicina General;Telefónica
+454500;2025/07/09;15:15;Dr. Tobías Yeso;Traumatología;Telefónica
+397765;2025/07/22;13:30;Dra. Lorena Sinapsis;Neurología;Telemedicina
+161437;2025/07/14;10:00;Dra. Clara Fractura;Traumatología;Telemedicina
+759921;2025/07/21;09:45;Dr. Kiko Chupete;Pediatría;Presencial
+385338;2025/07/23;11:00;Dra. Lorena Sinapsis;Neurología;Presencial
+660768;2025/07/12;15:30;Dr. L.A. Pastilla;Medicina General;Telemedicina
+618073;2025/07/22;10:30;Dra. Lorena Sinapsis;Neurología;Telefónica
+206381;2025/07/20;16:00;Dra. Clara Fractura;Traumatología;Presencial
+960180;2025/07/23;12:15;Dr. Kiko Chupete;Pediatría;Telemedicina
+946746;2025/07/17;14:45;Dr. Kiko Chupete;Pediatría;Telefónica
+260208;2025/07/26;10:15;Dra. V. Entrículo;Cardiología;Presencial
+579451;2025/07/20;12:00;Dr. L.A. Pastilla;Medicina General;Presencial
+119664;2025/07/18;13:30;Dra. Clara Fractura;Traumatología;Telefónica
+498679;2025/07/04;13:30;Dr. Marcelo Miocardio;Cardiología;Telemedicina
+474943;2025/07/24;13:00;Dr. Tobías Yeso;Traumatología;Telemedicina
+690062;2025/07/06;15:00;Dr. Tobías Yeso;Traumatología;Presencial
+864642;2025/07/26;15:00;Dra. Lorena Sinapsis;Neurología;Telemedicina
+472774;2025/07/18;14:15;Dra. Clara Iris;Oftalmología;Telefónica
+475417;2025/07/23;13:45;Dra. Lorena Sinapsis;Neurología;Telefónica
+469259;2025/07/21;10:15;Dra. Clara Iris;Oftalmología;Telemedicina
+493754;2025/07/10;13:15;Dra. V. Entrículo;Cardiología;Telefónica
+547346;2025/07/31;14:30;Dra. V. Entrículo;Cardiología;Telemedicina
+934828;2025/07/01;11:15;Dr. Marcelo Miocardio;Cardiología;Telefónica
+554152;2025/07/21;13:00;Dr. L.A. Pastilla;Medicina General;Telefónica
+854625;2025/07/10;10:30;Dr. Tobías Yeso;Traumatología;Telefónica
+342253;2025/06/26;12:45;Dr. Latido Fuerte;Cardiología;Telefónica
+706187;2025/07/29;09:45;Dra. Clara Fractura;Traumatología;Telemedicina
+623753;2025/07/05;13:30;Dr. Kiko Chupete;Pediatría;Presencial
+404896;2025/07/22;12:15;Dra. Lorena Sinapsis;Neurología;Presencial
+416110;2025/07/13;09:00;Dr. L.A. Pastilla;Medicina General;Telemedicina
+637170;2025/07/19;15:45;Dra. Clara Fractura;Traumatología;Presencial
+393898;2025/07/23;15:45;Dr. Kiko Chupete;Pediatría;Telemedicina
+684761;2025/07/25;13:30;Dr. Marcelo Miocardio;Cardiología;Presencial
+888096;2025/07/04;10:45;Dr. Kiko Chupete;Pediatría;Telefónica
+154325;2025/07/14;14:00;Dra. V. Entrículo;Cardiología;Presencial
+996985;2025/07/28;10:45;Dr. L.A. Pastilla;Medicina General;Presencial
+368959;2025/07/10;11:45;Dra. Clara Fractura;Traumatología;Telefónica
+177677;2025/07/28;09:00;Dr. Latido Fuerte;Cardiología;Telemedicina
+610426;2025/07/25;12:00;Dr. Marcelo Miocardio;Cardiología;Telemedicina
+955723;2025/07/19;09:45;Dr. Tobías Yeso;Traumatología;Telemedicina
+985624;2025/07/07;15:15;Dra. Clara Iris;Oftalmología;Presencial
+583635;2025/07/19;10:15;Dr. Tobías Yeso;Traumatología;Presencial
+562785;2025/07/28;12:45;Dra. Lorena Sinapsis;Neurología;Telemedicina
+871469;2025/07/25;11:15;Dr. Latido Fuerte;Cardiología;Presencial
+744925;2025/07/26;11:00;Dra. Clara Iris;Oftalmología;Telefónica
+763110;2025/07/01;13:00;Dra. Lorena Sinapsis;Neurología;Telefónica
+696688;2025/07/11;15:30;Dra. Clara Iris;Oftalmología;Telemedicina
+645181;2025/07/25;11:15;Dra. V. Entrículo;Cardiología;Telefónica
+654499;2025/07/28;14:30;Dra. V. Entrículo;Cardiología;Telemedicina
+595775;2025/07/25;11:45;Dr. Marcelo Miocardio;Cardiología;Telefónica
+111198;2025/07/05;15:45;Dr. L.A. Pastilla;Medicina General;Telefónica
+557926;2025/07/24;12:30;Dr. Tobías Yeso;Traumatología;Telefónica
+222259;2025/07/23;11:15;Dr. Latido Fuerte;Cardiología;Telefónica
+499551;2025/07/31;12:45;Dra. Clara Fractura;Traumatología;Telemedicina
+425416;2025/07/14;16:15;Dr. Kiko Chupete;Pediatría;Presencial
+702008;2025/07/24;13:45;Dra. Lorena Sinapsis;Neurología;Presencial
+715840;2025/07/14;13:15;Dr. L.A. Pastilla;Medicina General;Telemedicina
+270093;2025/07/17;11:45;Dra. Clara Fractura;Traumatología;Presencial
+718616;2025/07/09;09:45;Dr. Kiko Chupete;Pediatría;Telemedicina
+934890;2025/07/04;09:00;Dr. Marcelo Miocardio;Cardiología;Presencial
+903117;2025/07/04;13:15;Dr. Kiko Chupete;Pediatría;Telefónica
+152184;2025/07/19;15:00;Dra. V. Entrículo;Cardiología;Presencial
+531212;2025/07/10;15:45;Dr. L.A. Pastilla;Medicina General;Presencial
+130761;2025/07/15;16:30;Dra. Clara Fractura;Traumatología;Telefónica
+654375;2025/07/30;09:30;Dr. Latido Fuerte;Cardiología;Telemedicina
+277816;2025/07/07;09:30;Dr. Marcelo Miocardio;Cardiología;Telemedicina
+796287;2025/07/19;09:15;Dr. Tobías Yeso;Traumatología;Telemedicina
+391351;2025/07/28;12:30;Dra. Clara Iris;Oftalmología;Presencial
+466867;2025/07/09;11:00;Dr. Tobías Yeso;Traumatología;Presencial
+944338;2025/07/15;10:15;Dra. Lorena Sinapsis;Neurología;Telemedicina
+115741;2025/07/23;14:00;Dr. Latido Fuerte;Cardiología;Presencial
+689079;2025/07/28;10:45;Dra. Clara Iris;Oftalmología;Telefónica
+665012;2025/07/13;10:00;Dra. Lorena Sinapsis;Neurología;Telefónica
+768191;2025/06/29;15:30;Dra. Clara Iris;Oftalmología;Telemedicina
+647279;2025/07/28;10:45;Dra. V. Entrículo;Cardiología;Telefónica
+278992;2025/07/25;15:45;Dra. V. Entrículo;Cardiología;Telemedicina
+506371;2025/06/29;15:30;Dr. Marcelo Miocardio;Cardiología;Telefónica
+384389;2025/07/04;12:45;Dr. L.A. Pastilla;Medicina General;Telefónica
+835152;2025/07/07;12:00;Dr. Tobías Yeso;Traumatología;Telefónica
+365418;2025/07/16;09:00;Dr. Latido Fuerte;Cardiología;Telefónica
+518040;2025/07/30;16:45;Dra. Clara Fractura;Traumatología;Telemedicina
+747636;2025/07/21;12:00;Dr. Kiko Chupete;Pediatría;Presencial
+235398;2025/07/02;16:00;Dra. Lorena Sinapsis;Neurología;Presencial
+550987;2025/07/18;13:30;Dr. L.A. Pastilla;Medicina General;Telemedicina
+953555;2025/07/07;12:00;Dra. Clara Fractura;Traumatología;Presencial
+120636;2025/06/29;16:30;Dr. Kiko Chupete;Pediatría;Telemedicina
+884243;2025/07/14;10:45;Dr. Marcelo Miocardio;Cardiología;Presencial
+528689;2025/07/11;12:45;Dr. Kiko Chupete;Pediatría;Telefónica

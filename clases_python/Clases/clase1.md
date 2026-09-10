@@ -15,7 +15,7 @@ Antes de instalar nada, tenemos que entender qué es programar y que es un algor
 Un algoritmo es una secuencia ordenada de pasos para resolver un problema. En este caso sirven para que la computadora entienda lo que queremos hacer.  
 
  *Ejemplo: preparar té*  
-   * Calentar agua
+  * Calentar agua
   * Poner el té en la taza
   * Verter agua caliente
   * Esperar 3 minutos

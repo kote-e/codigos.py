@@ -20,7 +20,7 @@ def es_cuadrado_magico(cuadrado):
         if suma_fila != suma_diagonal_principal or suma_columna != suma_diagonal_principal:
             return False
         
-    return True
+    return suma_diagonal_principal
 
 
 
@@ -34,15 +34,14 @@ for i in range(ancho):
         fila.append(numero)
     Cuadrado.append(fila)
 
-    print((i+j) % ancho + 1, end=" ")
 
 
 print( f"El cuadrado mágico ingresado es:" )
 for fila in Cuadrado:
     print(fila)
 
-
-if es_cuadrado_magico(Cuadrado):
-    print(f"\n¡Es un cuadrado mágico! Constante: {sum(Cuadrado[0])}")
+numero= es_cuadrado_magico(Cuadrado)
+if numero:
+    print(numero)
 else:
-    print("\nNO es un cuadrado mágico.")
+    print("NO")

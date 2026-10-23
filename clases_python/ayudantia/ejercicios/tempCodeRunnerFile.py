@@ -1,0 +1,1 @@
+  print((i+j) % ancho + 1, end=" ")
